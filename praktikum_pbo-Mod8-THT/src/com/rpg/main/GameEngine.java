@@ -85,7 +85,7 @@ public class GameEngine {
             if (hero.getHp() > 0) { // jika perulangan while selesai, maka semua monster berhasil dikalahkan dan jika pahlawan memiliki HP yang lebih dari 0, maka pahlawan berhasil
                 System.out.println("Pahlawan berhasil menamatkan Dungeon, Selamat Yuusha-sama : " + hero.getNama());
             }
-            else { // jika kurang HP kurang dari itu, maka Game Over
+            else { // jika HP kurang dari itu, maka Game Over
                 System.out.println("GAME OVER!");
             }
         }
